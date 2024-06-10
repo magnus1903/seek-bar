@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- generic seek bar strings -->
+    <string name="generic_seek_bar_change_dependency_error">The \"mandatory\" attribute \"seek bar change listener\" must be set.</string>
+    <string name="generic_seek_bar_value_label_array_error">The number of elements in the \"value array\" and the \"label array\" must be the same.</string>
+    <string name="generic_seek_bar_value_error">The value must be a position index in the \"value array\".</string>
+    <string name="generic_seek_bar_value_array_error">The \"value array\" is missing.</string>
+    <!-- float seek bar strings -->
+    <string name="float_seek_bar_constructor_error">Could not instantiate \"tha float seek bar\" object because its corresponding \"xml-drawable\" could not be loaded.</string>
+    <string name="float_seek_bar_initiation_error">The minimum and maximum values cannot be the same and the minimum value cannot be greater than the maximum value.</string>
+    <string name="float_seek_bar_default_error">The \"default value\" must not be less than the minimum value or greater than the maximum value and the difference between the default and minimum value should be equally divisible by the value increment.</string>
+    <string name="float_seek_bar_increment_error">The increment must be greater than zero and the difference between the maximum and minimum values should be equally divisible by the increment.</string>
+    <string name="float_seek_bar_set_value_error">The value must be between 0.0 and 1.0.</string>
+    <!-- text seek bar strings -->
+    <string name="text_seek_bar_value_array_error">The \"value array\" should be an array of floats.</string>
+    <!-- enumeration seek bar strings -->
+    <string name="enumeration_seek_bar_value_array_error">The \"default value\" is missing.</string>
+    <!-- label seek bar strings -->
+    <string name="label_seek_bar_constructor_error">Could not instantiate \"the label seek bar\" object because its corresponding \"xml-drawable\" could not be loaded.</string>
+    <string name="label_seek_bar_initiation_error">The number of selectable labels must be at least 2.</string>
+    <string name="label_seek_bar_default_error" tools:ignore="UnusedResources">The \"default value\" must not be less than 0 or greater than the number of selectable labels - 1.</string>
+    <string name="label_seek_bar_value_error">The value must be a position index in the \"label array\".</string>
+</resources>

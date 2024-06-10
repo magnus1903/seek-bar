@@ -1,0 +1,49 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/background"
+        android:gravity="center_vertical|fill_horizontal">
+        <shape
+            android:shape="rectangle"
+            android:tint="#99000000">
+            <corners android:radius="10dp" />
+            <size android:height="10dp" />
+            <solid android:color="#42FFFFFF" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item
+                    android:drawable="@android:color/transparent"
+                    android:state_enabled="false" />
+                <item>
+                    <shape
+                        android:shape="rectangle"
+                        android:tint="#008577">
+                        <corners android:radius="10dp" />
+                        <size android:height="10dp" />
+                        <solid android:color="#42FFFFFF" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+    <item android:gravity="center_vertical">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item
+                    android:drawable="@android:color/transparent"
+                    android:state_enabled="false" />
+                <item>
+                    <shape
+                        android:shape="rectangle"
+                        android:tint="#008577">
+                        <corners android:radius="10dp" />
+                        <size android:height="10dp" />
+                        <solid android:color="#FFFFFF" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

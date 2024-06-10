@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enumeration_seek_bar_value_array_error">\"Standard värdet\" saknas.</string>
+    <string name="float_seek_bar_constructor_error">Kunde inte instantiera \"tha float seek bar\" objektet på grund av att dess motsvarande \"xml-drawable\" inte kunde laddas.</string>
+    <string name="float_seek_bar_default_error">\"Standard värdet\" får inte vara mindre än minimum-värdet eller större än maximum-värdet och differensen mellan \"standard värdet\" och minimum-värdet skall vara jämnt delbart med inkrementet.</string>
+    <string name="float_seek_bar_increment_error">Inkrementet måste vara större än noll och differensen mellan maximum-värdet och minimum-värdet skall vara jämnt delbart med inkrementet.</string>
+    <string name="float_seek_bar_initiation_error">Minimum- och maximum-värdet får inte vara lika och minimum-värdet får inte vara större än maximum-värdet.</string>
+    <string name="float_seek_bar_set_value_error">Värdet skall vara mellan 0.0 och 1.0.</string>
+    <string name="generic_seek_bar_change_dependency_error">Det \"obligatoriska\" attributet \"seek bar change listener\" måste sättas.</string>
+    <string name="generic_seek_bar_value_array_error">Attributet \"value array\" saknas.</string>
+    <string name="generic_seek_bar_value_error">Värdet måste vara ett positionsindex i \"value array\".</string>
+    <string name="generic_seek_bar_value_label_array_error">Antalet element i \"value array\" och \"label array\" måste vara lika.</string>
+    <string name="label_seek_bar_constructor_error">Kunde inte instantiera \"the label seek bar\" objektet på grund av att dess motsvarande \"xml-drawable\" inte kunde laddas.</string>
+    <string name="label_seek_bar_default_error">\"Standard värdet\" får inte vara mindre än 0 eller större än antalet valbara \"labels\" - 1.</string>
+    <string name="label_seek_bar_initiation_error">Antalet valbara \"labels\" måste vara minst 2.</string>
+    <string name="label_seek_bar_value_error">Värdet måste vara ett positionsindex i \"label array\".</string>
+    <string name="text_seek_bar_value_array_error">\"Value array\" skall vara en array av flyttal.</string>
+</resources>

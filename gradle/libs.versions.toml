@@ -1,0 +1,19 @@
+#   this file contains versions of dependencies and plugins used in the project,
+#   dependencies are defined as, e.g., "implementation libs.androidx.core.ktx"
+#   where the "android-core-ktx" version is specified in the "[versions]" section,
+#   equivalent for the plugin versions
+
+[versions]
+agp = "8.3.2"
+appcompat = "1.7.0"
+material = "1.12.0"
+preference = "1.2.1"
+
+[libraries]
+androidx-preference = { module = "androidx.preference:preference", version.ref = "preference" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+

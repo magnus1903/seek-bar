@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="color_primary_dark">#055823</color>
+    <color name="color_primary_light">#009688</color>
+    <color name="color_secondary_dark">#000000</color>
+    <color name="color_secondary_light">#C0C0C0</color>
+    <dimen format="float" name="float_seek_bar_sound_effects_value_increment" ns1:keep="@dimen/float_seek_bar_sound_effects_value_increment" type="dimen">
+        0.05
+    </dimen>
+    <dimen format="float" name="float_seek_bar_sound_volume_default_value" ns1:keep="@dimen/float_seek_bar_sound_volume_default_value" type="dimen">
+        0
+    </dimen>
+    <dimen format="float" name="float_seek_bar_sound_volume_maximum_value" ns1:keep="@dimen/float_seek_bar_sound_volume_maximum_value" type="dimen">
+        1
+    </dimen>
+    <dimen format="float" name="float_seek_bar_sound_volume_minimum_value" ns1:keep="@dimen/float_seek_bar_sound_volume_minimum_value" type="dimen">
+        0
+    </dimen>
+    <dimen format="float" name="text_seek_bar_ball_radius_default_value" ns1:keep="@dimen/text_seek_bar_ball_radius_default_value" type="dimen">
+        0.3
+    </dimen>
+    <integer name="choice_seek_bar_ball_diameter_default_value">40</integer>
+    <integer name="choice_seek_bar_size_default_value">6</integer>
+    <integer name="enumeration_seek_bar_ball_diameter_default_value">40</integer>
+    <integer name="enumeration_seek_bar_size_default_value">6</integer>
+    <integer name="float_seek_bar_ball_diameter_default_value">40</integer>
+    <integer name="float_seek_bar_decimal_count_default_value">2</integer>
+    <integer name="float_seek_bar_size_default_value">6</integer>
+    <integer name="text_seek_bar_ball_diameter_default_value">40</integer>
+    <integer name="text_seek_bar_size_default_value">6</integer>
+    <string name="enumeration_seek_bar_value_array_error">The \"default value\" is missing.</string>
+    <string name="float_seek_bar_constructor_error">Could not instantiate \"tha float seek bar\" object because its corresponding \"xml-drawable\" could not be loaded.</string>
+    <string name="float_seek_bar_default_error">The \"default value\" must not be less than the minimum value or greater than the maximum value and the difference between the default and minimum value should be equally divisible by the value increment.</string>
+    <string name="float_seek_bar_increment_error">The increment must be greater than zero and the difference between the maximum and minimum values should be equally divisible by the increment.</string>
+    <string name="float_seek_bar_initiation_error">The minimum and maximum values cannot be the same and the minimum value cannot be greater than the maximum value.</string>
+    <string name="float_seek_bar_set_value_error">The value must be between 0.0 and 1.0.</string>
+    <string name="generic_seek_bar_change_dependency_error">The \"mandatory\" attribute \"seek bar change listener\" must be set.</string>
+    <string name="generic_seek_bar_value_array_error">The \"value array\" is missing.</string>
+    <string name="generic_seek_bar_value_error">The value must be a position index in the \"value array\".</string>
+    <string name="generic_seek_bar_value_label_array_error">The number of elements in the \"value array\" and the \"label array\" must be the same.</string>
+    <string name="label_seek_bar_constructor_error">Could not instantiate \"the label seek bar\" object because its corresponding \"xml-drawable\" could not be loaded.</string>
+    <string name="label_seek_bar_default_error" ns1:ignore="UnusedResources">The \"default value\" must not be less than 0 or greater than the number of selectable labels - 1.</string>
+    <string name="label_seek_bar_initiation_error">The number of selectable labels must be at least 2.</string>
+    <string name="label_seek_bar_value_error">The value must be a position index in the \"label array\".</string>
+    <string name="text_seek_bar_value_array_error">The \"value array\" should be an array of floats.</string>
+    <declare-styleable name="ChoiceSeekBar">
+        
+        <attr format="color" name="choiceColor"/>
+        
+        <attr format="color" name="choiceThumbColor"/>
+        
+        <attr format="integer" name="choiceSize"/>
+        
+        <attr format="integer" name="choiceDiameter"/>
+        <attr format="integer" name="choiceDefaultValue"/>
+        
+        <attr format="reference" name="choiceValues"/>
+        
+        <attr format="reference" name="choiceLabels"/>
+    </declare-styleable>
+    <declare-styleable name="EnumerationSeekBar">
+        
+        <attr format="color" name="enumerationColor"/>
+        
+        <attr format="color" name="enumerationThumbColor"/>
+        
+        <attr format="integer" name="enumerationSize"/>
+        
+        <attr format="integer" name="enumerationDiameter"/>
+        <attr format="string" name="enumerationDefaultValue"/>
+        
+        <attr format="reference" name="enumerationValues"/>
+        
+        <attr format="reference" name="enumerationLabels"/>
+    </declare-styleable>
+    <declare-styleable name="FloatSeekBar">
+        <attr format="float" name="floatDefaultValue"/>
+        <attr format="float" name="floatMinimumValue"/>
+        <attr format="float" name="floatMaximumValue"/>
+        
+        <attr format="float" name="floatValueIncrement"/>
+        
+        
+        
+        <attr format="boolean" name="floatShowSeekBarValue"/>
+        
+        <attr format="color" name="floatColor"/>
+        
+        <attr format="color" name="floatThumbColor"/>
+        
+        <attr format="integer" name="floatSize"/>
+        
+        <attr format="integer" name="floatDiameter"/>
+        
+        <attr format="integer" name="floatDecimalCount"/>
+    </declare-styleable>
+    <declare-styleable name="TextSeekBar">
+        <attr format="float" name="textDefaultValue"/>
+        
+        <attr format="color" name="textColor"/>
+        
+        <attr format="color" name="textThumbColor"/>
+        
+        <attr format="integer" name="textSize"/>
+        
+        <attr format="integer" name="textDiameter"/>
+        
+        <attr format="reference" name="textLabels"/>
+        
+        <attr format="reference" name="textValues"/>
+    </declare-styleable>
+</resources>

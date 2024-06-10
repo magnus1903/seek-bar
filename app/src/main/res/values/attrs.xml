@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatSeekBar">
+        <attr name="floatDefaultValue" format="float" />
+        <attr name="floatMinimumValue" format="float" />
+        <attr name="floatMaximumValue" format="float" />
+        <!-- attribute controlling the amount to increment or decrement the seek bar when the user moves the thumb -->
+        <attr name="floatValueIncrement" format="float" />
+        <!-- flag indicating whether the TextView next to the seek bar that shows the current seek bar -->
+        <!-- value will be displayed, if true, the view is VISIBLE; if false, the view will be GONE, -->
+        <!-- by default, this view is VISIBLE -->
+        <attr name="floatShowSeekBarValue" format="boolean" />
+        <!-- the color of the seek bar -->
+        <attr name="floatColor" format="color" />
+        <!-- the color of the thumb of the seek bar -->
+        <attr name="floatThumbColor" format="color" />
+        <!-- the thickness (height) of the seek bar -->
+        <attr name="floatSize" format="integer" />
+        <!-- the diameter of the thumb of the seek bar -->
+        <attr name="floatDiameter" format="integer" />
+        <!-- the number of decimals to show of the seek bar value -->
+        <attr name="floatDecimalCount" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="TextSeekBar">
+        <attr name="textDefaultValue" format="float" />
+        <!-- the color of the seek bar -->
+        <attr name="textColor" format="color" />
+        <!-- the color of the thumb of the seek bar -->
+        <attr name="textThumbColor" format="color" />
+        <!-- the thickness (height) of the seek bar -->
+        <attr name="textSize" format="integer" />
+        <!-- the diameter of the thumb of the seek bar -->
+        <attr name="textDiameter" format="integer" />
+        <!-- the labels of the seek bar -->
+        <attr name="textLabels" format="reference" />
+        <!-- the values of the seek bar -->
+        <attr name="textValues" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="EnumerationSeekBar">
+        <!-- the color of the seek bar -->
+        <attr name="enumerationColor" format="color" />
+        <!-- the color of the thumb of the seek bar -->
+        <attr name="enumerationThumbColor" format="color" />
+        <!-- the thickness (height) of the seek bar -->
+        <attr name="enumerationSize" format="integer" />
+        <!-- the diameter of the thumb of the seek bar -->
+        <attr name="enumerationDiameter" format="integer" />
+        <attr name="enumerationDefaultValue" format="string" />
+        <!-- the values of the seek bar -->
+        <attr name="enumerationValues" format="reference" />
+        <!-- the labels of the seek bar -->
+        <attr name="enumerationLabels" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ChoiceSeekBar">
+        <!-- the color of the seek bar -->
+        <attr name="choiceColor" format="color" />
+        <!-- the color of the thumb of the seek bar -->
+        <attr name="choiceThumbColor" format="color" />
+        <!-- the thickness (height) of the seek bar -->
+        <attr name="choiceSize" format="integer" />
+        <!-- the diameter of the thumb of the seek bar -->
+        <attr name="choiceDiameter" format="integer" />
+        <attr name="choiceDefaultValue" format="integer" />
+        <!-- the values of the seek bar -->
+        <attr name="choiceValues" format="reference" />
+        <!-- the labels of the seek bar -->
+        <attr name="choiceLabels" format="reference" />
+    </declare-styleable>
+</resources>

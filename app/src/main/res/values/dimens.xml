@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- the standard (default) value must not be less than the minimum value or greater than -->
+    <!-- the maximum value and the difference between the standard and minimum values should -->
+    <!-- be equally divisible by the value increment -->
+    <dimen name="float_seek_bar_sound_volume_default_value" format="float" type="dimen" tools:keep="@dimen/float_seek_bar_sound_volume_default_value">
+        0
+    </dimen>
+    <!-- the "preferences_sound_effects_minimum_value" should be given as a factor greater than or equal to zero -->
+    <dimen name="float_seek_bar_sound_volume_minimum_value" format="float" type="dimen" tools:keep="@dimen/float_seek_bar_sound_volume_minimum_value">
+        0
+    </dimen>
+    <!-- the "preferences_sound_effects_maximum_value" should be given as a factor greater than the minimum value  -->
+    <dimen name="float_seek_bar_sound_volume_maximum_value" format="float" type="dimen" tools:keep="@dimen/float_seek_bar_sound_volume_maximum_value">
+        1
+    </dimen>
+    <!-- NOTE that the difference between the maximum and minimum values must be equally divisible by the value increment -->
+    <dimen name="float_seek_bar_sound_effects_value_increment" format="float" type="dimen" tools:keep="@dimen/float_seek_bar_sound_effects_value_increment">
+        0.05
+    </dimen>
+    <!-- the default value must be an element in the "value array" -->
+    <dimen name="text_seek_bar_ball_radius_default_value" format="float" type="dimen" tools:keep="@dimen/text_seek_bar_ball_radius_default_value">
+        0.3
+    </dimen>
+</resources>

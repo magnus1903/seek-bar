@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the default value of the height in pixels of the seek bar -->
+    <integer name="float_seek_bar_size_default_value">6</integer>
+    <!-- the default value of the thumb diameter in pixels -->
+    <integer name="float_seek_bar_ball_diameter_default_value">40</integer>
+    <!-- the default value of the number of decimals -->
+    <integer name="float_seek_bar_decimal_count_default_value">2</integer>
+    <!-- the default value of the height in pixels of the seek bar -->
+    <integer name="text_seek_bar_size_default_value">6</integer>
+    <!-- the default value of the thumb diameter in pixels -->
+    <integer name="text_seek_bar_ball_diameter_default_value">40</integer>
+    <!-- the default value of the height in pixels of the seek bar -->
+    <integer name="choice_seek_bar_size_default_value">6</integer>
+    <!-- the default value of the thumb diameter in pixels -->
+    <integer name="choice_seek_bar_ball_diameter_default_value">40</integer>
+    <!-- the default value of the height in pixels of the seek bar -->
+    <integer name="enumeration_seek_bar_size_default_value">6</integer>
+    <!-- the default value of the thumb diameter in pixels -->
+    <integer name="enumeration_seek_bar_ball_diameter_default_value">40</integer>
+</resources>

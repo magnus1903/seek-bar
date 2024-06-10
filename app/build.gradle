@@ -39,7 +39,7 @@ afterEvaluate {
             libraryProject(MavenPublication) {
                 setGroupId 'com.github.magnus1903'
                 setArtifactId 'seek-bar'
-                version '1.0.6'
+                version '1.0.7'
                 artifact bundleReleaseAar
                 artifact sourcesJar
             }
